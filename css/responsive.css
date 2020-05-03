@@ -1,0 +1,509 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand {
+        padding-left: 27px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+        padding: 30px 0px;
+        transition: all .3s linear;
+        margin-right: 20px;
+    }
+
+    .left_bar {
+        margin-left: 15px;
+    }
+
+    h2 {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 39px;
+        font-weight: 300;
+        color: #0f2f44;
+    }
+
+    h1 {
+        font-family: 'Abril Fatface', 'cursive';
+        font-size: 66px;
+        text-transform: uppercase;
+        color: #0f2f44;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 30px;
+        font-weight: 300;
+        color: #aab0d8;
+        letter-spacing: 11px;
+        margin-bottom: 10px;
+    }
+
+    .left_success_details {
+        padding-top: 76px;
+        padding-bottom: 93px;
+    }
+
+    .all_about_us {
+        padding-top: 68px;
+    }
+
+    .lft_btn {
+        left: 300px;
+    }
+
+    .rgt_btn {
+        right: 300px;
+    }
+
+    .rgt_btn_blog {
+        right: 318px;
+        top: 135px;
+    }
+
+    .lft_btn_blog {
+        left: 318px;
+        top: 135px;
+    }
+
+    .last_iconn .last_icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+
+    .filckr_same {
+        margin-right: 19px;
+        padding-top: 6px;
+    }
+
+    .same_copy {
+        font-size: 14px;
+    }
+
+    .fonts_wrap a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 3px;
+    }
+
+
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-brand {
+        padding-left: 27px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+        padding: 30px 0px;
+        transition: all .3s linear;
+        margin-right: 20px;
+    }
+
+    .left_bar {
+        margin-left: 15px;
+    }
+
+    h2 {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 39px;
+        font-weight: 300;
+        color: #0f2f44;
+    }
+
+    h1 {
+        font-family: 'Abril Fatface', 'cursive';
+        font-size: 66px;
+        text-transform: uppercase;
+        color: #0f2f44;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 30px;
+        font-weight: 300;
+        color: #aab0d8;
+        letter-spacing: 11px;
+        margin-bottom: 10px;
+    }
+
+    .left_success_details {
+        padding-top: 76px;
+        padding-bottom: 93px;
+    }
+
+    .all_about_us {
+        padding-top: 68px;
+    }
+
+    .lft_btn {
+        left: 300px;
+    }
+
+    .rgt_btn {
+        right: 300px;
+    }
+
+    .rgt_btn_blog {
+        right: 318px;
+        top: 135px;
+    }
+
+    .lft_btn_blog {
+        left: 318px;
+        top: 135px;
+    }
+
+    .last_iconn .last_icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+
+    .filckr_same {
+        margin-right: 19px;
+        padding-top: 6px;
+    }
+
+    .same_copy {
+        font-size: 14px;
+    }
+
+    .fonts_wrap a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 3px;
+    }
+
+    /* new all  */
+    .bar_sear.left_bar {
+        position: absolute;
+        top: 0;
+        right: 95px;
+    }
+
+    .right_bar_btn {
+        margin-right: -85px !important;
+    }
+
+    .abt_btn {
+        padding: 7px 17px;
+        margin-right: 13px;
+    }
+
+    .our_skill {
+        padding: 0;
+        margin-top: 77px;
+        margin-bottom: 43px;
+    }
+
+
+    .ser_details h3 {
+        font-size: 25px;
+    }
+
+    .ser_details p {
+        font-size: 17px;
+    }
+
+    .inner_ser_img_ovelay h3 {
+        font-size: 24px;
+    }
+
+    .inner_ser_img_ovelay {
+        padding-top: 64px !important;
+    }
+
+    .lft_btn {
+        left: -10px;
+    }
+
+    .rgt_btn {
+        right: -10px;
+    }
+
+    .lft_btn_blog {
+        left: 10px;
+        top: 50%;
+        box-shadow: -15px 0px 70px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .rgt_btn_blog {
+        right: 10px;
+        top: 50%;
+        box-shadow: -15px 0px 70px 3px rgba(0, 0, 0, 0.75);
+    }
+
+
+    .fonts_wrap {
+        margin-top: 28px;
+        margin-bottom: 102px;
+    }
+
+    .contact {
+        padding-left: 114px;
+    }
+
+    .important_link h2 {
+        font-size: 24px;
+    }
+
+    .filckr_same {
+        margin-right: -26px;
+        padding-top: 0px;
+    }
+
+    .filckr h2 {
+        padding-bottom: 24px;
+        font-size: 25px;
+    }
+
+
+    .same_copy {
+        font-size: 11px;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bar_sear.left_bar {
+        position: absolute;
+        top: 0;
+        right: 95px;
+    }
+
+    .right_bar_btn {
+        margin-right: -85px !important;
+    }
+
+    .abt_btn {
+        padding: 7px 17px;
+        margin-right: 13px;
+    }
+
+    .our_skill {
+        padding: 0;
+        margin-top: 77px;
+        margin-bottom: 43px;
+    }
+
+
+    .ser_details h3 {
+        font-size: 25px;
+    }
+
+    .ser_details p {
+        font-size: 17px;
+    }
+
+    .inner_ser_img_ovelay h3 {
+        font-size: 24px;
+    }
+
+    .inner_ser_img_ovelay {
+        padding-top: 64px !important;
+    }
+
+    .lft_btn {
+        left: -10px;
+    }
+
+    .rgt_btn {
+        right: -10px;
+    }
+
+    .lft_btn_blog {
+        left: 10px;
+        top: 50%;
+        box-shadow: -15px 0px 70px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .rgt_btn_blog {
+        right: 10px;
+        top: 50%;
+        box-shadow: -15px 0px 70px 3px rgba(0, 0, 0, 0.75);
+    }
+
+
+    .fonts_wrap {
+        margin-top: 28px;
+        margin-bottom: 102px;
+    }
+
+    .contact {
+        padding-left: 114px;
+    }
+
+    .important_link h2 {
+        font-size: 24px;
+    }
+
+    .filckr_same {
+        margin-right: -26px;
+        padding-top: 0px;
+    }
+
+    .filckr h2 {
+        padding-bottom: 24px;
+        font-size: 25px;
+    }
+
+
+    .same_copy {
+        font-size: 11px;
+    }
+
+
+
+
+
+
+    /* new details  */
+    h4 {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        padding-left: 18px;
+    }
+
+    .left_success_details {
+        padding-top: 43px;
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h1 {
+        font-size: 61px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 30px;
+        letter-spacing: 8px;
+        margin-bottom: 7px;
+    }
+
+    .all_about_us {
+        padding-top: 0;
+    }
+
+    .pro_ber {
+        background: rgb(172, 164, 164);
+    }
+
+    .head_all h6 {
+        padding-top: 0px;
+    }
+
+    .inner_ser_img_ovelay {
+        padding-top: 45px !important;
+    }
+
+    .head_all {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .last_iconn .last_icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 36px;
+    }
+
+    .fonts_wrap {
+        margin-top: 28px;
+        margin-bottom: 50px;
+    }
+
+    .contact {
+        padding-left: 19px;
+    }
+
+    .contact h2 {
+        padding-bottom: 18px;
+    }
+
+    .important_link h2 {
+        padding-top: 20px;
+    }
+
+    .important_link ul li a {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .filckr h2 {
+        padding-bottom: 24px;
+        font-size: 25px;
+        padding-top: 19px;
+        text-align: center;
+    }
+
+    .filckr_same {
+        margin-bottom: 5px;
+        margin-bottom: 38px;
+        margin-right: 0;
+        padding-top: 0px;
+    }
+
+    .same_copy {
+        font-size: 8px;
+    }
+
+    .copy_all::after {
+        height: 69%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
